@@ -1,3 +1,5 @@
+[![.github/workflows/test.yml](https://github.com/jdaubman13/fix-the-pipeline-sprin2/actions/workflows/test.yml/badge.svg)](https://github.com/jdaubman13/fix-the-pipeline-sprin2/actions/workflows/test.yml)
+
 # Converter Module
 
 A Python module for common unit conversions.
