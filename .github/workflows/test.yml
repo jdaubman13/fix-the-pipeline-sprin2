@@ -6,9 +6,7 @@ on: push:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - checkout: config-repo
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -20,3 +18,5 @@ jobs:
       - name: Run tests
         run: |
           pytest tests/ --cov=src --cov-report=term-missing
+      - name: Checkout repository
+        uses: actions/checkout@v4
